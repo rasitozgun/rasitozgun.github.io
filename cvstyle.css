@@ -1,0 +1,665 @@
+.buton-bilgi{
+    
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    left: 30%;
+    top: 200px;
+    margin: 5px 1% 5px 1%;
+    float: left;
+    position: relative;
+    -webkit-transition: height 2s, width 2s;
+    transition: height 2s, width 2s;
+    overflow: hidden;
+    background-color: #333;
+}
+.buton-bilgi .about{
+    text-align: center;
+    font-size: 20pt;
+    padding-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition-delay: 0s;
+    opacity: 1;
+    margin-bottom: 5px;
+    max-width: 500px;
+    height: 40px;
+    background-color: #a2a2a2;
+    border-radius: 10px;
+    font-family: "Poppins";
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+
+}
+
+.buton-bilgi .yazi{
+    color: #e97e27;
+    position: absolute;
+    top: 10%;
+    right: 1%;
+    font-size: 20pt;
+    margin: 20px;
+    font-family: Roboto;
+    position: absolute;
+    text-align: center;
+    overflow: hidden;
+    transition-delay: 0s;
+    opacity: 0;
+    font-family: "Poppins";
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+
+    
+}
+
+.buton-bilgi:hover .yazi{
+    transition-delay: 2.2s;
+    transition: opacity 3s;
+    opacity: 1;
+    
+}
+
+
+.buton-bilgi:hover{
+    
+    width: 500px;
+    height: 320px;
+}
+
+
+
+
+
+.buton-education{
+    
+    border-radius: 10px;
+    height: 40px;
+    width: 160px;
+    left: 30%;
+    top: 300px;
+    margin: 5px 1% 5px 1%;
+    float: left;
+    position: relative;
+    -webkit-transition: height 2s, width 2s;
+    transition: height 1s, width 1s;
+    overflow: hidden;
+    background-color: #333;
+    
+}
+
+.buton-education .education{
+    text-align: center;
+    font-size: 20pt;
+    padding-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition-delay: 0s;
+    opacity: 1;
+    margin-bottom: 5px;
+    max-width: 500px;
+    height: 40px;
+    background-color: #a2a2a2;
+    border-radius: 10px;
+    font-family: "Poppins";
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+
+}
+
+
+.buton-education:hover {
+    width: 400px;
+    height: 260px;
+
+}
+.schools{
+    text-align: center;
+    list-style-type: none;
+    padding: 0px;
+    max-height: 0px;
+    font-size: 12pt;
+    font-family: "Poppins";
+    opacity: 0;
+    overflow: hidden;
+    transition: opacity 4s;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+
+}
+
+.schools li{
+    color: #e97e27;
+    margin: 10px;
+}
+
+
+.buton-education:hover .schools{
+
+    max-height: inherit;
+    opacity: 1;
+
+}
+
+
+
+
+
+
+
+.buton-softskills{
+    
+    border-radius: 10px;
+    height: 40px;
+    width: 160px;
+    left: 30%;
+    top: 150px;
+    margin: 5px 1% 5px 1%;
+    float: left;
+    position: relative;
+    -webkit-transition: height 2s, width 2s;
+    transition: height 1s, width 1s;
+    
+    overflow: hidden;
+    background-color: #333;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+
+.buton-softskills:hover {
+   
+    height: 290px;
+
+}
+
+.buton-softskills .soft-skillshead{
+    text-align: center;
+    font-size: 20pt;
+    font-family: "Poppins";
+    transition-delay: 0s;
+    opacity: 1;
+    max-width: 500px;
+    height: 40px;
+    background-color: #a2a2a2;
+    border-radius: 10px;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+
+}
+
+.soft-skills{
+   
+    list-style-type: none;
+    padding: 15px;
+    text-align: center;
+    max-height: 0px;
+    font-size: 12pt;
+    font-family: "Poppins";
+    opacity: 0;
+    overflow: hidden;
+    transition: opacity 4s;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+
+}
+
+.soft-skills li {
+    color: #e97e27;
+    margin-bottom: 20px;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+
+}
+
+.buton-softskills:hover .soft-skills {
+    max-height: inherit;
+    opacity: 1;
+    transition-delay: 0s;
+}
+
+
+.buton-techskills{
+    border-radius: 10px;
+    height: 40px;
+    width: 160px;
+    left: 30%;
+    top: 500px;
+    margin: 5px 1% 5px 1%;
+    float: left;
+    position: relative;
+    -webkit-transition: height 2s, width 2s;
+    transition: height 1s, width 1s; 
+    overflow: hidden;
+    background-color: #333;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+   
+}
+
+.buton-techskills:hover {
+    
+    height: 420px;
+    width: 320px;
+   
+}
+
+
+
+.tech-skills{
+   
+    list-style-type: none;
+    padding: 15px;
+    max-height: 0px;
+    font-size: 12pt;
+    font-family: "Poppins";
+    opacity: 0;
+    overflow: hidden;
+    transition: opacity 4s;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+
+}
+
+
+.tech-skills li {
+    color: #e97e27;
+    margin-bottom: 20px;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+
+}
+
+
+.buton-techskills:hover .tech-skills {
+    max-height: inherit;
+    opacity: 1;
+    transition-delay: 0s;
+}
+
+
+.container {
+    width: 100%;
+    background-color: rgb(188, 185, 185);
+}
+
+* {
+    box-sizing: border-box
+}
+.buton-techskills .tech-skillshead{
+    text-align: center;
+    font-size: 20pt;
+    padding-bottom: 20px;
+    font-family: "Poppins";
+    transition-delay: 0s;
+    opacity: 1;
+    margin-bottom: 5px;
+    max-width: 500px;
+    height: 40px;
+    background-color: #a2a2a2;
+    border-radius: 10px;
+}
+
+.htmlcss {
+    width: 35%; 
+    background-color: #04AA6D;
+}
+.flutter {
+    width: 35%;
+     background-color: #00adf1;
+    }
+.java {
+    width: 30%;
+     background-color: #f44336;
+    }
+.dart {
+    width: 30%; background-color: #03579c;
+}
+
+.python {
+    width: 30%; background-color: #0749ff;
+}
+
+
+.buton-hobbies{
+    border-radius: 10px;
+    height: 40px;
+    width: 160px;
+    left: 30%;
+    top: 350px;
+    margin: 5px 1% 5px 1%;
+    float: left;
+    position: relative;
+    -webkit-transition: height 2s, width 2s;
+    transition: height 1s, width 1s; 
+    overflow: hidden;
+    background-color: #333;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
+
+.buton-hobbies:hover {
+   
+    height: 300px;
+    width: 240px;
+}
+
+.buton-hobbies .hobbiesshead{
+    text-align: center;
+    font-size: 20pt;
+    font-family: "Poppins";
+    transition-delay: 0s;
+    opacity: 1;
+    max-width: 500px;
+    height: 40px;
+    background-color: #a2a2a2;
+    border-radius: 10px;
+}
+
+.hobbies{
+   
+    list-style-type: none;
+    padding: 15px;
+    text-align: center;
+    max-height: 0px;
+    font-size: 12pt;
+    font-family: "Poppins";
+    opacity: 0;
+    overflow: hidden;
+    transition: opacity 4s;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+
+}
+
+.hobbies li {
+    color: #e97e27;
+    margin-bottom: 20px;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+
+}
+
+.buton-hobbies:hover .hobbies{
+    max-height: inherit;
+    opacity: 1;
+    transition-delay: 0s;
+}
+
+
+.resim{
+    left: 62px;
+    top: 50px;
+    position: absolute;
+    border-radius: 50%;
+    border-width: 3px !important; filter: drop-shadow(12px 4px 16px #e97e27);
+    width: 20%;
+    height: 40%;
+    resize: none;
+}
+
+
+
+.contact {
+    position: absolute;
+    top: 50%;
+}
+
+
+
+
+
+.mailbtn {
+  position: relative;
+  left: 210px;
+  top: 20px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #cecd24;
+  text-decoration: none;
+  font-size: 1.5em;
+  display: inline-block;
+  font-family: "Poppins";
+  text-transform: uppercase;
+  padding: 0.5em 2em;
+  border: 2px solid #cecd24;
+  transition: 0.02s 0.2s cubic-bezier(0.1, 0, 0.1, 1);
+}
+.mailbtn::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  background: #cecd24;
+  transition: 0.3s 0.2s cubic-bezier(0.1, 0, 0.1, 1), left 0.3s cubic-bezier(0.1, 0, 0.1, 1);
+  z-index: -1;
+}
+.mailbtn::after {
+  content: "";
+  display: inline-block;
+  background-image: url("https://image.flaticon.com/icons/png/128/109/109617.png");
+  position: absolute;
+  top: 0;
+  left: calc(100% - 3em);
+  right: 4em;
+  bottom: 0;
+  background-size: 1em;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: right 0.3s cubic-bezier(0.1, 0, 0.1, 1);
+  resize: none;
+}
+.mailbtn:hover {
+  padding: 0.5em 3.5em 0.5em 0.5em;
+}
+.mailbtn:hover::before {
+  left: calc(100% - 3em);
+  right: 0;
+  transition: 0.3s cubic-bezier(0.1, 0, 0.1, 1), left 0.3s 0.2s cubic-bezier(0.1, 0, 0.1, 1);
+}
+.mailbtn:hover::after {
+  right: 0;
+  transition: right 0.3s 0.2s cubic-bezier(0.1, 0, 0.1, 1);
+}
+
+
+
+.isim {
+    left: 21%;
+    position: relative;
+    font-size: 25pt;
+}
+
+
+
+.contact span{
+
+  	font: 200 1em/1 "Poppins";
+  	letter-spacing: 0;
+  	padding: .25em 0 .325em;
+	  display: block;
+	  margin: 0 auto;
+  	text-shadow: 0 0 80px #a2a2a2;
+
+/* Clip Background Image */
+
+	  background: url(https://i.ibb.co/RDTnNrT/animated-text-fill.png) repeat-y;
+	  -webkit-background-clip: text;
+	  background-clip: text;
+
+/* Animate Background Image */
+
+	  -webkit-text-fill-color: transparent;
+	  -webkit-animation: aitf 80s linear infinite;
+
+      animation: aitf 80s linear infinite;
+/* Activate hardware acceleration for smoother animations */
+
+	  -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+	  -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+
+  }
+
+
+/* Animate Background Image */
+@keyframes aitf {
+    0% { background-position: 0% 50%; }
+	100% { background-position: 100% 50%; }
+    
+}
+@-webkit-keyframes aitf {
+	0% { background-position: 0% 50%; }
+	100% { background-position: 100% 50%; }
+}
+
+
+
+
+
+
+  
+  .icon-container {
+    margin-top: 30px;
+    width: 100%;
+    height: 60px;
+  }
+  
+  .icon {
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin-left: 12px;
+    margin-right: 12px;
+    border-radius: 30px;
+    overflow: hidden;
+  }
+  .icon::before, .icon::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transition: all 0.25s ease;
+    border-radius: 30px;
+  }
+  .icon i {
+    position: relative;
+    left: 26%;
+    color: #FFFFFF;
+    font-size: 30px;
+    margin-top: 15px;
+    transition: all 0.25s ease;
+  }
+  
+  .icon-fill::before {
+    transition-duration: 0.5s;
+    box-shadow: inset 0 0 0 1px #343d48;
+  }
+  .icon-fill:hover::before {
+    box-shadow: inset 0 0 0 60px #343d48;
+  }
+  
+  .icon-enter::after {
+    box-shadow: inset 0 0 0 1px #0077b7;
+  }
+  .icon-enter::before {
+    border-radius: 0;
+    margin-left: -100%;
+    box-shadow: inset 0 0 0 60px #0077b7;
+  }
+  .icon-enter:hover::before {
+    margin-left: 0;
+  }
+  
+  .icon-expand::after {
+    box-shadow: inset 0 0 0 1px #fbc45b;
+  }
+  .icon-expand::before {
+    background: #dd2d72;
+    box-shadow: inset 0 0 0 60px #fbc45b;
+  }
+  .icon-expand:hover::before {
+    box-shadow: inset 0 0 0 1px #df2c72;
+  }
+  
+  .icon-collapse::before {
+    border-radius: 0;
+  }
+  .icon-collapse:hover::before {
+    box-shadow: inset 0 30px 0 0 #1ed760, inset 0 -30px 0 0 #1ed760;
+  }
+  .icon-collapse::after {
+    box-shadow: inset 0 0 0 1px #1ed760;
+  }
+  
+  .icon-rotate {
+    box-shadow: inset 0 0 0 1px #5865f2;
+  }
+  .icon-rotate::after, .icon-rotate::before {
+    border: 0px solid transparent;
+  }
+  .icon-rotate:hover::before {
+    transition: border-top-width 0.3s ease, border-top-color 0.3s ease;
+    border-width: 60px;
+    border-top-color: #5865f2;
+  }
+  .icon-rotate:hover::after {
+    transition: border-left-width 0.3s ease, border-left-color 0.3s ease;
+    border-width: 60px;
+    border-left-color: #5865f2;
+  }
+  .icon-rotate:hover {
+    transition: background 0.001s ease 0.3s;
+    background: #5865f2;
+  }
+  .icon-rotate i {
+    z-index: 1;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    background-image: url('images/2564042.jpg');
+    overflow: hidden;
+    max-width: 1920px;
+    max-height: 1080px;
+}
+
+
