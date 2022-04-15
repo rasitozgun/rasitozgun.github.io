@@ -11,7 +11,7 @@
     -webkit-transition: height 2s, width 2s;
     transition: height 2s, width 2s;
     overflow: hidden;
-    background-color: #333;
+    background-color: rgba(51, 51, 51, 0.581);
 }
 .buton-bilgi .about{
     text-align: center;
@@ -84,7 +84,7 @@
     -webkit-transition: height 2s, width 2s;
     transition: height 1s, width 1s;
     overflow: hidden;
-    background-color: #333;
+    background-color: rgba(51, 51, 51, 0.581);
     
 }
 
@@ -162,7 +162,7 @@
     transition: height 1s, width 1s;
     
     overflow: hidden;
-    background-color: #333;
+    background-color: rgba(51, 51, 51, 0.581);
     -ms-user-select: none;
     -webkit-user-select: none;
     user-select: none;
@@ -236,7 +236,7 @@
     -webkit-transition: height 2s, width 2s;
     transition: height 1s, width 1s; 
     overflow: hidden;
-    background-color: #333;
+    background-color: rgba(51, 51, 51, 0.581);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
    
@@ -340,7 +340,7 @@
     -webkit-transition: height 2s, width 2s;
     transition: height 1s, width 1s; 
     overflow: hidden;
-    background-color: #333;
+    background-color: rgba(51, 51, 51, 0.581);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     
