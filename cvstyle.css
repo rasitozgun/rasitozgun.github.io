@@ -404,8 +404,8 @@
     position: absolute;
     border-radius: 50%;
     border-width: 3px !important; filter: drop-shadow(12px 4px 16px #e97e27);
-    width: 20%;
-    height: 40%;
+    width: 20em;
+    height: 22em;
     resize: none;
 }
 
