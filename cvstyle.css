@@ -1,8 +1,8 @@
 .buton-bilgi{
     
     border-radius: 10px;
-    height: 40px;
-    width: 100px;
+    height: 2.5em;
+    width: 6.25em;
     left: 30%;
     top: 200px;
     margin: 5px 1% 5px 1%;
@@ -62,9 +62,8 @@
 
 
 .buton-bilgi:hover{
-    
-    width: 500px;
-    height: 320px;
+    width: 31.25em;
+    height: 20em;
 }
 
 
@@ -74,8 +73,8 @@
 .buton-education{
     
     border-radius: 10px;
-    height: 40px;
-    width: 160px;
+    height: 2.5em;
+    width: 10em;
     left: 30%;
     top: 300px;
     margin: 5px 1% 5px 1%;
@@ -109,8 +108,8 @@
 
 
 .buton-education:hover {
-    width: 400px;
-    height: 260px;
+    width: 25em;
+    height: 16em;
 
 }
 .schools{
@@ -151,8 +150,8 @@
 .buton-softskills{
     
     border-radius: 10px;
-    height: 40px;
-    width: 160px;
+    height: 2.5em;
+    width: 10em;
     left: 30%;
     top: 150px;
     margin: 5px 1% 5px 1%;
@@ -171,7 +170,7 @@
 
 .buton-softskills:hover {
    
-    height: 290px;
+    height: 18.125em;
 
 }
 
@@ -406,7 +405,7 @@
     border-width: 3px !important; filter: drop-shadow(12px 4px 16px #e97e27);
     width: 20em;
     height: 22em;
-    resize: none;
+    resize: both;
 }
 
 
