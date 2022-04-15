@@ -6,15 +6,26 @@
   padding:0;
   box-sizing: border-box
 }
-html {
-  
-  max-width: 100%;
-  max-height: 100%;
+html{
+  scroll-behavior: smooth;
 }
 body{
   background-image: url('images/2564042.jpg');
+  position: relative;
+  margin: 0;
   overflow: hidden;
+  display: block;
+  height: 100vh;
+  flex-direction: column;
+  line-height: 1.5;
+  
 }
+
+
+h1 {
+  font-size: 20pt;
+}
+
 
 .buton-bilgi{
     
@@ -173,8 +184,8 @@ body{
   border-radius: 10px;
   height: 40px;
   width: 160px;
-  left: 80%;
-  top: 300px;
+  left: 50%;
+  top: 20%;
   margin: 5px 1% 5px 1%;
   float: left;
   position: absolute;
@@ -247,8 +258,8 @@ body{
   border-radius: 10px;
   height: 40px;
   width: 160px;
-  left: 80%;
-  top: 300px;
+  left: 60%;
+  top: 70%;
   margin: 5px 1% 5px 1%;
   float: left;
   position: absolute;
@@ -432,14 +443,15 @@ body{
     border-radius: 50%;
     border-width: 3px !important; filter: drop-shadow(12px 4px 16px #e97e27);
     width: 20em;
-    height: 22em;
+    height: 20em;
     z-index: 100;
     float: left;
 }
 
 
 
-.contact {
+.mail-name
+ {
     position: absolute;
     top: 50%;
 }
@@ -450,8 +462,8 @@ body{
 
 .mailbtn {
   position: relative;
-  left: 210px;
-  top: 20px;
+  left: 8em;
+  top: 4em;
   transform: translate(-50%, -50%);
   text-align: center;
   color: #cecd24;
@@ -507,14 +519,16 @@ body{
 
 
 .isim {
-    left: 40%;
     position: relative;
+    left: 2.2em;
+    top: 1em;
     font-size: 25pt;
 }
 
 
 
-.contact span{
+.mail-name
+ span{
 
   	font: 200 1em/1 "Poppins";
   	letter-spacing: 0;
@@ -543,7 +557,8 @@ body{
       backface-visibility: hidden;
 
   }
-  .contact span::after{
+  .mail-name
+   span::after{
     content: '';
     animation: textrotate 5s linear infinite;
   }
@@ -573,7 +588,10 @@ body{
 }
 
 
-
+#cont {
+  color: #fff;
+  padding: 1rem;
+}
 
 
 
@@ -582,7 +600,8 @@ body{
     margin-top: 30px;
     width: 25em;
     position: absolute;
-    top: 560px;
+    left: 1em;
+    top: 38em;
     height: 3.75em;
   }
   
@@ -685,6 +704,279 @@ body{
     z-index: 100;
   }
 
+
+ .contact-form {
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    border-radius: 10px;
+    height: 2.5em ;
+    width: 12em;
+    left: 48%;
+    top: 16em;
+    margin: 5px 1% 5px 1%;
+    float: left;
+    position: relative;
+    -webkit-transition: height 2s, width 2s;
+    transition: height 1s, width 1s; 
+    overflow: hidden;
+    background-color: rgba(51, 51, 51, 0.880);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.contact-form .form-text {
+  text-align: center;
+  font-size: 20pt;
+  font-family: "Poppins";
+  transition-delay: 0s;
+  opacity: 1;
+  max-width: 50em;
+  height: 40px;
+  color: #000000;
+  background-color: #a2a2a2;
+  border-radius: 10px;
+}
+
+.contact-form:hover{
+  height: 28em;
+  width: 50em;
+  z-index: 100;
+}
+.text-center {
+  position: relative;
+  top: 6em;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+.heading-medium {
+  font-size: 5rem;
+}
+
+.form-group {
+  padding: 0.25rem 0;
+}
+.form-control {
+  position: relative;
+  top: 4em;
+  left: 16%;
+  width: 70%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  resize: none;
+  border: 3px solid #ff8400;
+  border-radius: 10px;
+}
+.form-group label {
+  display: block;
+}
+.btn {
+  position: relative;
+  top: 3em;
+  left: 16%;
+  margin-top: 1.25rem;
+  padding: 0.8rem 3rem;
+  border-radius: 6px;
+  letter-spacing: 0.5px;
+}
+.btn-block {
+  width: 70%;
+  text-align: center;
+}
+
+.sectionone {
+  height: 100vh;
+  background: url('images/2564042.jpg');
+  box-sizing: border-box;
+}
+.sectiontwo {
+  height: 100vh;
+  background: url('images/2564042.jpg');
+  box-sizing: border-box;
+}
+
+
+
+.scroll-down {
+  height: 50px;
+  width: 30px;
+  border: 2px solid rgb(238, 255, 0);
+  position: absolute;
+  left: 95%;
+  bottom: 50%;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.scroll-down::before,
+.scroll-down::after {
+  content: "";
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  height: 10px;
+  width: 10px;
+  transform: translate(-50%, -100%) rotate(45deg);
+  border: 2px solid rgb(238, 255, 0);
+  border-top: transparent;
+  border-left: transparent;
+  animation: scroll-down 1s ease-in-out infinite;
+}
+.scroll-down::before {
+  top: 30%;
+  animation-delay: 0.3s;
+  /* animation: scroll-down 1s ease-in-out infinite; */
+}
+
+@keyframes scroll-down {
+  0% {
+    /* top:20%; */
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    top: 90%;
+    opacity: 0;
+  }
+}
+
+
+
+
+.scroll-down2 {
+  height: 50px;
+  width: 30px;
+  border: 2px solid rgb(238, 255, 0);
+  position: absolute;
+  left: 95%;
+  bottom: -50%;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.scroll-down2::before,
+.scroll-down2::after {
+  content: "";
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  height: 10px;
+  width: 10px;
+  transform: translate(-50%, -100%) rotate(45deg);
+  border: 2px solid rgb(238, 255, 0);
+  border-right: transparent;
+  border-bottom: transparent;
+  animation: scroll-down2 1s ease-in-out infinite;
+}
+.scroll-down2::before {
+  top: 100%;
+  animation-delay: 0.3s;
+  /* animation: scroll-down 1s ease-in-out infinite; */
+}
+
+@keyframes scroll-down2 {
+  0% {
+    /* top:20%; */
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    top: 30%;
+    opacity: 0;
+  }
+}
+
+
+
+
+.repo {
+  overflow: visible;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  bottom: -60%;
+  left: 43%;
+  background: transparent;
+  font: inherit;
+  line-height: normal;
+  cursor: pointer;
+  -moz-user-select: text;
+  user-select: text;
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 16px 36px 22px;
+  background-color: #fff;
+  color: #666;
+  border: 2px solid #666;
+  border-radius: 6px;
+  margin-bottom: 16px;
+  transition: all 0.5s ease;
+}
+.repo:-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+.repo-stripe {
+  overflow: hidden;
+  position: absolute;
+}
+.repo-stripe:after {
+  content: "";
+  display: block;
+  height: 7px;
+  width: 100%;
+  background-image: repeating-linear-gradient(45deg, #666, #666 1px, transparent 2px, transparent 5px);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-top: 1px solid #666;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-size: 7px 7px;
+}
+.repo-stripe:hover {
+  background-color: #666;
+  color: #fff;
+  border-color: #000;
+}
+.repo-stripe:hover:after {
+  background-image: repeating-linear-gradient(45deg, #fff, #fff 1px, transparent 2px, transparent 5px);
+  border-top: 1px solid #000;
+  -webkit-animation: stripe-slide 12s infinite linear forwards;
+          animation: stripe-slide 12s infinite linear forwards;
+}
+
+
+.repo-radius {
+  border-radius: 36px;
+}
+
+
+
+.footer {
+  height: 2em;
+  background-color: #a2a2a2;
+  position: absolute;
+  max-width: 100vw;
+  width: 100vw;
+  float: left;
+  text-align: center;
+  bottom: -100vh;
+}
+.footer h1 {
+  font-size: 14pt;
+  font-family: "Poppins";
+}
+
   
   @media (max-width:576px) {
     body {
@@ -701,7 +993,21 @@ body{
     }
 
 
+    .isim  {
+      position: relative;
+      top: 0em;
+    }
+
+    .mailbtn{
+      flex-direction: column;
+      position: relative;
+      margin: 1em;
+      top: 2em;
+      left: 187.5px;
+    }
+
     .buton-bilgi{
+      flex-direction: column;
       position: absolute;
       top: 80%;
       left: 50%;
@@ -719,42 +1025,41 @@ body{
       width: 24em;
       height: 16em;
     }
+ 
+
     .buton-education {
+      flex-direction: column;
       position: absolute;
       top: 90%;
       left: 50%;
       -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
     }
-    .buton-hobbies{
-      position: absolute;
-      top: 100%;
-      left: 50%;
-    } 
 
     .buton-softskills{
+      flex-direction: column;
       position: absolute;
       top: 110%;
       left: 50%;
     }
 
     .buton-techskills{
+      flex-direction: column;
       position: absolute;
-      top: 120%;
+      top: 100%;
       left: 50%;  
     }
-
-    .buton-techskills .tech-skills{
-      z-index: 150;
-    }
-
-
-    .mailbtn{
+    .buton-hobbies{
       flex-direction: column;
-      position: relative;
-      top: 45px;
-      left: 187.5px;
-    }
+      position: absolute;
+      top: 120%;
+      left: 50%;
+    } 
+
+ 
+
+
+  
     .box {
       padding: 0px;
       margin: 0px;
@@ -764,8 +1069,30 @@ body{
 
     .icon-container{
       position: absolute;
-      top: 130%;
+      top: 150%;
       
       padding-bottom: 100px;
     }
+
+
+    .contact-form{
+      position: absolute;
+      top: 180%;
+      margin-bottom: 40em;
+    }
+    .contact-form:hover{
+      width: 24em;
+      height: 26em;
+      z-index: 100;
+    }
+
+    .scroll-down {
+      display: none;
+    }
+    .scroll-down2 {
+      display: none;
+    }
+
   }
+
+  
