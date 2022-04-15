@@ -1007,7 +1007,7 @@ h1 {
       position: relative;
       margin: 1em;
       top: 2em;
-      left: 187.5px;
+      left: 70%;
     }
 
     .buton-bilgi{
@@ -1063,7 +1063,7 @@ h1 {
  
     .repo  {
       position: relative;
-      left: 26%;
+      left: 25%;
       top: 85%;
 
     }
