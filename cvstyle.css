@@ -515,6 +515,10 @@
       backface-visibility: hidden;
 
   }
+  .contact span::after{
+    content: '';
+    animation: textrotate 5s linear infinite;
+  }
 
 
 /* Animate Background Image */
@@ -526,6 +530,18 @@
 @-webkit-keyframes aitf {
 	0% { background-position: 0% 50%; }
 	100% { background-position: 100% 50%; }
+}
+
+@keyframes textrotate {
+  0% {
+      content: 'M. Rasit Ozgun';
+  }
+  50% {
+      content: 'Developer';
+  }
+  100% {
+      content: 'Gamer';
+  }
 }
 
 
