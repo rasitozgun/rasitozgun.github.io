@@ -988,7 +988,8 @@ h1 {
       top: 90%;
       left: 50%;
       -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    
     }
 
     .buton-bilgi .yazi {
