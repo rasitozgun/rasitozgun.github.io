@@ -588,14 +588,7 @@ h1 {
 }
 
 
-#cont {
-  color: #fff;
-  padding: 1rem;
-}
 
-
-
-  
   .icon-container {
     margin-top: 30px;
     width: 25em;
@@ -895,77 +888,56 @@ h1 {
 }
 
 
-
-
-.repo {
-  overflow: visible;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  bottom: -60%;
-  left: 43%;
-  background: transparent;
-  font: inherit;
-  line-height: normal;
-  cursor: pointer;
-  -moz-user-select: text;
-  user-select: text;
-  display: block;
-  text-decoration: none;
-  text-transform: uppercase;
-  padding: 16px 36px 22px;
-  background-color: #fff;
-  color: #666;
-  border: 2px solid #666;
-  border-radius: 6px;
-  margin-bottom: 16px;
-  transition: all 0.5s ease;
+.repo{
+  position: absolute;
+  display: inline-flex;
+  width: 11.25em;
+  height: 55px;
+  margin: 0 15px;
+  perspective: 1000px;
+  left: 42.5%;
+  top: 150%;
+}
+.repo .github-repo{
+  font-size: 19px;
+  letter-spacing: 1px;
+  transform-style: preserve-3d;
+  transform: translateZ(-25px);
+  transition: transform .25s;
+  font-family: 'Montserrat', sans-serif;
   
 }
-.repo:-moz-focus-inner {
-  padding: 0;
-  border: 0;
-}
-.repo-stripe {
-  overflow: hidden;
+.repo .github-repo:before,
+.repo .github-repo:after{
   position: absolute;
+  content: "GITHUB REPOS";
+  height: 55px;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid black;
+  box-sizing: border-box;
+  border-radius: 5px;
 }
-.repo-stripe:after {
-  content: "";
-  display: block;
-  height: 7px;
-  width: 100%;
-  background-image: repeating-linear-gradient(45deg, #666, #666 1px, transparent 2px, transparent 5px);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  border-top: 1px solid #666;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  background-size: 7px 7px;
-}
-.repo-stripe:hover {
-  background-color: #666;
+.repo .github-repo:before{
   color: #fff;
-  border-color: #000;
+  background: #000;
+  transform: rotateY(0deg) translateZ(25px);
 }
-.repo-stripe:hover:after {
-  background-image: repeating-linear-gradient(45deg, #fff, #fff 1px, transparent 2px, transparent 5px);
-  border-top: 1px solid #000;
-  -webkit-animation: stripe-slide 12s infinite linear forwards;
-          animation: stripe-slide 12s infinite linear forwards;
+.repo .github-repo:after{
+  color: #000;
+  background-color: #a2a2a2;
+  transform: rotateX(90deg) translateZ(25px);
 }
-
-
-.repo-radius {
-  border-radius: 36px;
+.repo .github-repo:hover{
+  transform: translateZ(-25px) rotateX(-90deg);
 }
-
 
 
 .footer {
   height: 1em;
-  background-color: #a2a2a2;
+   background-color: #a2a2a2;
   display: flex;
   position: absolute;
   max-width: 100vw;
