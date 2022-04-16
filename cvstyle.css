@@ -1079,7 +1079,7 @@ h1 {
     }
 
     .footer {
-      max-width: 110vw;
+      width: 110vw;
     }
 
   }
