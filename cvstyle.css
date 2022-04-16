@@ -895,7 +895,7 @@ h1 {
   height: 55px;
   margin: 0 15px;
   perspective: 1000px;
-  left: 45%;
+  left: 44.85%;
   top: 150%;
 }
 .repo .github-repo{
@@ -1075,7 +1075,7 @@ h1 {
     }
 
     .footer {
-      max-width: max-content;
+      max-width: 110vw;
     }
 
   }
