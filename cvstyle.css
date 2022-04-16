@@ -895,7 +895,7 @@ h1 {
   height: 55px;
   margin: 0 15px;
   perspective: 1000px;
-  left: 42.5%;
+  left: 45%;
   top: 150%;
 }
 .repo .github-repo{
@@ -1072,6 +1072,10 @@ h1 {
     }
     .scroll-down2 {
       display: none;
+    }
+
+    .footer {
+      max-width: max-content;
     }
 
   }
