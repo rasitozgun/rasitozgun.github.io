@@ -1082,7 +1082,8 @@ h1 {
     }
 
     .footer {
-      width: 101vw;
+      position: relative;
+      width: 105vw;
     }
 
   }
