@@ -982,14 +982,14 @@ h1 {
       position: relative;
       margin: 1em;
       top: 2em;
-      left: 69%;
+      left: 72%;
     }
 
     .buton-bilgi{
       flex-direction: column;
       position: absolute;
       top: 90%;
-      left: 53%;
+      left: 50%;
       -ms-transform: translate(-50%, -50%);
       
       transform: translate(-50%, -50%);
@@ -1012,7 +1012,7 @@ h1 {
       flex-direction: column;
       position: absolute;
       top: 100%;
-      left: 53%;
+      left: 50%;
       -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%);
     }
@@ -1021,20 +1021,20 @@ h1 {
       flex-direction: column;
       position: absolute;
       top: 120%;
-      left: 53%;
+      left: 50%;
     }
 
     .buton-techskills{
       flex-direction: column;
       position: absolute;
       top: 110%;
-      left: 53%;  
+      left: 50%;  
     }
     .buton-hobbies{
       flex-direction: column;
       position: absolute;
       top: 130%;
-      left: 53%;
+      left: 50%;
     } 
 
  
@@ -1070,7 +1070,7 @@ h1 {
       position: absolute;
       top: 180%;
       margin-bottom: 40em;
-
+      left: 50%;
     }
     .contact-form:hover{
       width: 24em;
