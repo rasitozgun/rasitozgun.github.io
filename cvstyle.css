@@ -10,7 +10,7 @@ html{
   scroll-behavior: smooth;
 }
 body{
-  background-image: url('images/2564042.jpg');
+  background-color: #050517;
   position: relative;
   margin: 0;
   overflow: hidden;
@@ -782,12 +782,12 @@ h1 {
 
 .sectionone {
   height: 100vh;
-  background: url('images/2564042.jpg');
+  background-color: #050517;
   box-sizing: border-box;
 }
 .sectiontwo {
   height: 100vh;
-  background: url('images/2564042.jpg');
+  background-color: #050517;
   box-sizing: border-box;
 }
 
