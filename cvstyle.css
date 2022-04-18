@@ -989,7 +989,7 @@ h1 {
       flex-direction: column;
       position: absolute;
       top: 90%;
-      left: 52%;
+      left: 50%;
       -ms-transform: translate(-50%, -50%);
       
       transform: translate(-50%, -50%);
@@ -1012,7 +1012,7 @@ h1 {
       flex-direction: column;
       position: absolute;
       top: 100%;
-      left: 52%;
+      left: 50%;
       -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%);
     }
@@ -1021,26 +1021,26 @@ h1 {
       flex-direction: column;
       position: absolute;
       top: 120%;
-      left: 53%;
+      left: 50%;
     }
 
     .buton-techskills{
       flex-direction: column;
       position: absolute;
       top: 110%;
-      left: 52%;  
+      left: 50%;  
     }
     .buton-hobbies{
       flex-direction: column;
       position: absolute;
       top: 130%;
-      left: 52%;
+      left: 50%;
     } 
 
  
     .repo  {
       position: relative;
-      left: 25%;
+      left: 23%;
       top: 85%;
 
     }
